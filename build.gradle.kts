@@ -30,6 +30,7 @@ dependencies {
 	if (osdetector.arch.equals("aarch_64")) {
 		implementation("io.netty:netty-all")
 	}
+	implementation("org.springdoc:springdoc-openapi-starter-webflux-ui:2.2.0")
 }
 
 tasks.withType<KotlinCompile> {
